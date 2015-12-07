@@ -98,7 +98,7 @@ h4 {
 
 #page2 {
   height: auto;
-  padding-bottom: 30px;
+  padding-bottom: 50px;;
 }
 
 .projectImg {
@@ -112,7 +112,7 @@ h4 {
 
 #page3 {
   height: auto;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 #aGithub {
@@ -184,6 +184,16 @@ h4 {
   font-size: 30px;
   border: solid;
   border-width: 5px;
+  background-color: #f2f2f2;
+}
+
+#contactLinksDiv {
+  padding-top: 30px;
+}
+
+#footnote {
+  font-size: 8px;
+  color: #C0C0C0;
   background-color: #f2f2f2;
 }
 
