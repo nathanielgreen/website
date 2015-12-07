@@ -1,0 +1,202 @@
+html {
+}
+
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #4C4D57;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+ display: inline-block;;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 4px;
+}
+
+a:hover {
+  background-color: #FFF;
+  color: #2d2d2d;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+#nav {
+  z-index: 9999;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  background-color: #2d2d2d;
+}
+
+#topPtitle {
+  font-size: 100px;
+  padding: 40px;
+  padding-top: 0px;
+  padding-bottom: 40px
+} 
+
+#topPinfo {
+  font-size: 30px;  
+  padding: 40px;
+  padding-top: 0px;
+}
+
+.info {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.evenPage {
+  background-color: #FFF;
+  left: 0;
+  right: 0;
+}
+
+.oddPage {
+  background-color: #f2f2f2;
+  left: 0;
+  right: 0;
+}
+
+#page0 {
+  margin-top: 70px;
+  height: auto;
+}
+
+#page1 {
+  height: auto;
+  padding-bottom: 30px;
+}
+
+#selfie {
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#page2 {
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.projectImg {
+  height: 150px;
+  width: 100%;
+  box-shadow: 5px 5px 5px #888888;
+  border: solid;
+  border-width: 1px;
+  border-color: #C0C0C0;
+}
+
+#page3 {
+  height: auto;
+  padding-bottom: 50px;
+}
+
+#aGithub {
+  border-color: #2d2d2d;
+  color: #2d2d2d;
+}
+
+#aGithub:hover {
+  color: #f2f2f2;
+  background-color: #2d2d2d;
+}
+
+#aTwitter {
+  border-color: #4099FF;
+  color: #4099FF;
+}
+
+#aTwitter:hover {
+  color: #f2f2f2;
+  background-color: #4099FF;
+}
+
+#aCV {
+  border-color: #C0C0C0;
+  color: #C0C0C0;
+}
+
+#aCV:hover {
+  color: #f2f2f2;
+  background-color: #C0C0C0
+}
+
+#aLinkedIn {
+  border-color: #0077B5;
+  color: #0077B5;
+}
+
+#aLinkedIn:hover {
+  color: #f2f2f2;
+  background-color: #0077B5;
+}
+
+#aEmail {
+  border-color: #dd4b39;
+  color: #dd4b39;
+}
+
+#aEmail:hover {
+  color: #f2f2f2;
+  background-color: #dd4b39;
+}
+
+.viewLink {
+  border: solid;
+  border-width: 3px;
+  color: #FFF;
+  background-color: #4C4D57;
+  border-color: #4C4D57;
+  position: relative;
+  bottom: 0;
+}
+
+.viewLink:hover {
+  background-color: #FFF;
+  color: #4C4D57;
+}
+
+.contactLinks {
+  font-size: 30px;
+  border: solid;
+  border-width: 5px;
+  background-color: #f2f2f2;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+  #topPtitle {
+    font-size: 60px;
+  } 
+
+  .contactLinksLi {
+    padding-bottom: 30px;
+  }
+
+}
