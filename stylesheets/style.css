@@ -65,6 +65,8 @@ li {
   padding-top: 0px;
 }
 
+
+/* Page Styling Start */
 .info {
   margin-left: 50px;
   margin-right: 50px;
@@ -102,6 +104,8 @@ li {
   height: auto;
   padding-bottom: 100px;
 }
+/* Page Styling End */
+
 
 #aboutText {
   font-size: 24px;
@@ -137,67 +141,65 @@ li {
   border-color: #C0C0C0;
 }
 
-#aGithub {
-  border-color: #2d2d2d;
-  color: #2d2d2d;
-}
 
-#aGithub:hover {
-  color: #f2f2f2;
-  background-color: #2d2d2d;
-}
-
-#aTwitter {
-  border-color: #4099FF;
-  color: #4099FF;
-}
-
-#aTwitter:hover {
-  color: #f2f2f2;
-  background-color: #4099FF;
-}
-
-#aCV {
-  border-color: #C0C0C0;
-  color: #C0C0C0;
-}
-
-#aCV:hover {
-  color: #f2f2f2;
-  background-color: #C0C0C0
-}
-
-#aLinkedIn {
-  border-color: #0077B5;
-  color: #0077B5;
-}
-
-#aLinkedIn:hover {
-  color: #f2f2f2;
-  background-color: #0077B5;
-}
-
-#aEmail {
-  border-color: #dd4b39;
-  color: #dd4b39;
-}
-
-#aEmail:hover {
-  color: #f2f2f2;
-  background-color: #dd4b39;
-}
-
-.contactLinks {
-  font-size: 30px;
-  border: solid;
-  border-width: 5px;
-  background-color: #f2f2f2;
-}
-
+/* Contact Page Start */
 #contactLinksDiv {
   word-spacing: 20px;
   padding-top: 30px;
 }
+  .contactLinks {
+    font-size: 30px;
+    border: solid;
+    border-width: 5px;
+    background-color: #f2f2f2;
+  }
+
+  #aGithub {
+    border-color: #2d2d2d;
+    color: #2d2d2d;
+  }
+    #aGithub:hover {
+      color: #f2f2f2;
+      background-color: #2d2d2d;
+    }
+
+  #aTwitter {
+    border-color: #4099FF;
+    color: #4099FF;
+  }
+    #aTwitter:hover {
+      color: #f2f2f2;
+      background-color: #4099FF;
+    }
+
+  #aCV {
+    border-color: #C0C0C0;
+    color: #C0C0C0;
+  }
+    #aCV:hover {
+      color: #f2f2f2;
+      background-color: #C0C0C0
+    }
+
+  #aLinkedIn {
+    border-color: #0077B5;
+    color: #0077B5;
+  }
+    #aLinkedIn:hover {
+      color: #f2f2f2;
+      background-color: #0077B5;
+    }
+
+  #aEmail {
+    border-color: #dd4b39;
+    color: #dd4b39;
+  }
+    #aEmail:hover {
+      color: #f2f2f2;
+      background-color: #dd4b39;
+    }
+/* Contact Page End */
+
 
 #footnote {
   font-size: 8px;
