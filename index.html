@@ -1,135 +1,183 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <title>N Green | Junior Web Developer</title>
+  <title>Nathaniel Green | Junior Web Developer</title>
 
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
-  <link rel="stylesheet" href="stylesheets/gridism.css">
-  <link rel="stylesheet" href="stylesheets/style.css">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'
+  type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700"
+  rel='stylesheet' type='text/css'>
+
+
+  <!-- jQuery -->
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
-
 <body>
 
-  <div id="nav" class="grid">
-    <div class="unit half">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="unit half">
-    </div>
+  <div id="intro">
+    <h1 id="intro-title">Nathaniel <span class="green-words"> Green </span></h1>
+    <p id="intro-info"> Web Developer based in London, UK. </p>
   </div>
 
-  <div id="page0" class="evenPage">
-    <p id="topTitle"> Hi, I'm Nathaniel Green. </p>
-
-    <p id="topInfo"> Here you'll be able to find information about who I am, projects I have
-    created/worked on, and how to contact me. </p>
+  <div class="banner">
+    <h1> PROJECTS </h1>
   </div>
 
-  <div id="page1" class="oddPage">
-    <a id="about" class="smooth"></a>
-    <div class="info">
-      <h1>About</h1>
-      <div class="grid">
-        <div class="unit one-third">
-          <img id="selfie" src="./images/profile.jpg" alt="profile.jpg">
+  <div id="ushare">
+      <div id="ushare-title" class="project-title">
+        <h1>Ushare<span class="green-words">.</span></h1>
+      </div>
+
+      <div id="ushare-content">
+        <div id="ushare-left">
+          <img id="ushare-phone" src="images/ushare_iphone6plus_silver_side1.png">
         </div>
-        <div id="aboutText" class="unit two-thirds">
-          <p> I'm a technology enthusiast with a passion for
-          creating new things. I recently finished the Makers Academy coding course and
-          am currently looking for full-time employment as a junior web developer in
-          London. </p>
-          <p> I have a comfortable amount of experience and knowledge in a
-          variety of different technologies, such as Ruby, Javascript, HTML &
-          CSS, and multiple others. </p>
-          <p> I integrate the best coding practices; Test Driven Development,
-          Red-Green-Refactoring, and Agile Learning, into my daily workflow.
+        <div id="ushare-right">
+          <div id="ushare-about">
+            <p> Ushare is an Android & iOS app that matches users based on their
+            current geolocation and their destination, to find others around
+            them with whom they can share an Uber Cab with. </p>
+            <p> This functionality provides users with a way to split the 
+            fare of an Uber Cab with other users when their friends or colleges
+            may not be available. </p> 
+            <p>The process of using Ushare is fast and simple, providing people an
+            quick and easy way to reduce the cost of their travel. </p>
+          </div>
+          <div id="ushare-buttons">
+            <a href="https://www.youtube.com/watch?v=nDIyEtmbVWE">
+              <button class="button">View Video Demo</button>
+            </a>
+            <a href="http://github.com/nathanielgreen/ushare">
+              <button class="button">View Github Repo</button>
+            </a>
+        </div>
         </div>
       </div>
-    </div>
   </div>
 
-  <div id="page2" class="evenPage">
-    <a id="projects" class="smooth"></a>
-    <div class="info">
-      <h1>Projects</h1>
-      <div class="grid">
-        <div class="unit half">
-          <h4>The Brooklyn Bar</h4>
-          <img class="projectImg" src="./images/brooklynbar.png" alt="Brooklyn Bar">
-          <p> A website for 'The Brooklyn Bar' located in Loughborough. Built for
-          a friend's colleague using Wordpress, along with setup of the domain and
-          hosting packages and email accounts. </p>
-          <a class="viewLink" href="http://thebrooklynbar.co.uk">View Site</a>
+  <div id="showstar">
+      <div id="showstar-title" class="project-title">
+        <h1> Show<span class="green-words">Star</span> Entertainments </h1>
+      </div>
+      <div id="showstar-content">
+        <div id="showstar-left">
+          <div id="showstar-about">
+            <p> A website built for the company ShowStar Entertainments. </p>
+            The  websites main function is to showcase various clubs and events owned
+            by ShowStar Entertainments as well as provide information and news on
+            upcoming events and/or changes. </p>
+            <p>  The website was built in close contact with the client and has 
+            been built to very specific design requests. </p>
+            </p>
+          </div>
+          <div id="showstar-buttons">
+              <a href="http://www.showstarents.co.uk">
+                <button class="button">View Live Website</button>
+              </a>
+              <a href="http://github.com/nathanielgreen/showstar">
+                <button class="button">View Github Repo</button>
+              </a>
+          </div>
         </div>
-        <div class="unit half">
-          <h4>Ushare</h4>
-          <img class="projectImg" src="./images/ushare.png" alt="Ushare">
-          <p> An Android/iOS app that matches users based on their location and
-          destination, to find others around them with whom they can share
-          an Uber Cab. Built in 2 weeks in a team of four. More information
-          on the Github repo. </p>
-          <a class="viewLink"
-            href="https://github.com/nathanielgreen/Ushare">View Github Repo</a>
+        <div id="showstar-right">
+          <img id="showstar-screen" src="images/showstar2.png">
         </div>
       </div>
-      <div class="grid">
-        <div class="unit half">
-          <h4>re-Eat (WIP)</h4>
-          <img class="projectImg" src="./images/reeat.png" alt="re-Eat">
-          <p> An app built with Meteor that allows users to save brand new unknown
-          restaurants on the fly to a collection, and build up a list of
-          favourites that populate the app map. Currently a work in progress. </p>
-          <a class="viewLink"
-            href="https://github.com/nathanielgreen/reEat">View Github Repo</a>
+  </div>
+
+  <div id="remoteme">
+      <div id="remoteme-title" class="project-title">
+        <h1> Remote<span class="green-words">Me</span></h1>
+      </div>
+
+      <div id="remoteme-content">
+
+        <div id="remoteme-left">
+          <img id="remoteme-screen" src="images/remoteme.png">
         </div>
-        <div class="unit half">
-          <h4>Ravebot</h4>
-          <img class="projectImg" src="./images/ravebot.png" alt="ravebot">
-          <p> An Android/iOS app that allows you to manage and socially curate
-          playlists that can be used in multiple ways. Built on the Ionic framework with a
-          Ruby-on-Rails backend. </p>
-          <a class="viewLink"
-            href="https://github.com/nathanielgreen/ravebot">View Github Repo</a>
+
+        <div id="remoteme-right">
+          <div id="remoteme-about">
+            <p> Remote Me, is a web app that allows users to
+            find, list, and rate areas in their city that are laptop-work friendly
+            areas (such as cafes, bars & hotels). </p>
+            <p> All locations will be listed on the interactive map. </p>
+            <p> A live interactive version of the project is available via the
+            button below. NOTE: Live version may not be the most up-to-date 
+            version of the project. </p>
+          </div>
+          <div id="remoteme-buttons">
+            <a href="http://remoteme.ngreen.co">
+              <button class="button">View Live Website</button>
+            </a>
+            <a href="http://github.com/nathanielgreen/remoteme">
+              <button class="button">View Github Repo</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+  <div id="brooklyn">
+      <div id="brooklyn-title" class="project-title">
+        <h1> The <span class="green-words">Brooklyn</span> Bar </h1>
+      </div>
+
+      <div id="brooklyn-content">
+        
+        <div id="brooklyn-left">
+          <div id="brooklyn-about">
+            <p> A website built for 'The Brooklyn Bar' located in Loughborough. </p>
+            <p> The website functions as a platform for 'The Brooklyn Bar' to take
+            and manage bookings of the venue, as well as post updates and provide
+            customers with information about the bar. </p>
+            <p> Built for a friend's colleague using Wordpress, along with setup of the
+            domain and hosting packages and email accounts.  
+          </div>
+          <div id="brooklyn-buttons">
+            <a href="http://thebrooklynbar.co.uk">
+              <button class="button">View Live Website</button>
+            </a>
+          </div>
+        </div>
+        
+        <div id="brooklyn-right">
+          <img id="brooklyn-screen" src="images/brooklynbar.png">
         </div>
       </div>
-    </div>
   </div>
 
-  <div id="page3" class="oddPage">
-    <a id="contact" class="smooth"></a>
-    <div class="info">
-      <h1>Contact</h1>
-      <p> You can contact me via any of my social media listed here. My Github
-      contains information on all the projects I have contributed to. </p>
-      <p> For any business enquiries please contact me via my listed email
-      address. </p>
-      <div id="contactLinksDiv">
-        <ul>
-          <li class="contactLinksLi"><a class="contactLinks" id="aGithub"
-          href="http://www.github.com/nathanielgreen">Github</a></li>
-          <li class="contactLinksLi"><a class="contactLinks" id="aTwitter"
-            href="http://www.twitter.com/ngreen2303">Twitter</a></li>
-          <li class="contactLinksLi"><a class="contactLinks" id="aCV"
-            href="http://www.github.com/nathanielgreen/CV">CV</a></li>
-          <li class="contactLinksLi"><a class="contactLinks" id="aLinkedIn"
-            href="https://uk.linkedin.com/in/nathaniel-green-727263107">LinkedIn</a></li>
-          <li class="contactLinksLi"><a class="contactLinks" id="aEmail"
-            href="mailto:n@ngreen.co">Email</a></li>
-        </ul>
-      </div>
-    </div>
+
+  <div class="banner">
+    <h1> CONTACT </h1>
   </div>
 
-  <div id="footnote">
-    Website built and designed by Nathaniel Green.
+  <div id="contact">
+    <a class="contact-button" href="http://github.com/nathanielgreen/">
+      <img class="contact-img" id="github" src="images/githublogo.png">
+    </a>
+    <a class="contact-button" href="http://twitter.com/ngreen2303/">
+      <img class="contact-img" id="twitter" src="images/twitterlogo.png">
+    </a>
+    <a class="contact-button" href="http://github.com/nathanielgreen/CV/">
+      <img class="contact-img" id="cv" src="images/cvlogo.png">
+    </a>
+    <a class="contact-button" href="mailto:ngreen2303@gmail.com">
+      <img class="contact-img" id="gmail" src="images/gmaillogo.png">
+    </a>
+    <a class="contact-button" href="https://uk.linkedin.com/in/nathaniel-green-727263107">
+      <img class="contact-img" id="linkedin" src="images/linkedinlogo.png">
+    </a>
+
   </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,284 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  color: #4C4D57;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.green-words {
+  color: #99cc99
+}
+
+.banner {
+  background: #99cc99;
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.button {
+  border: solid;
+  border-color: #99cc99;
+  border-radius: 2px;
+  border-width: 4px;
+  background: url(images/transparentbg.png);
+  bottom: 0;
+  color: #99cc99;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+  .button:hover {
+    background: #99cc99;
+    color: #fff;
+    cursor: hand;
+  }
+
+
+#intro {
+  padding: 80px;
+  text-align: center;
+}
+  #intro-title {
+    font-size: 80px;
+  }
+  #intro-info {
+    font-size: 30px;
+  }
+
+.project-title {
+    border-bottom: solid;
+    border-color: #99cc99;
+    border-width: 4px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+    .project-title h1{
+      font-size: 60px;
+      margin: 0;
+    } 
+
+
+/* Projects Start */
+#ushare {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+  #ushare-title {
+    margin: 40px auto;
+    width: 250px;
+  }
+  #ushare-content {
+    display: -webkit-flex;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%; 
+  }
+    #ushare-left {
+      flex: 1;
+    }
+      #ushare-phone {
+        height: 100%;
+        width: 100%;
+      }
+    #ushare-right {
+      flex: 2;
+      margin-right: 40px;
+    }
+      #ushare-about {
+        font-size: 24px;
+        height: 70%;
+      }
+      #ushare-buttons {
+        height: 30%;
+        margin-right: 40px;
+        text-align: right;
+      }
+
+
+#showstar {
+  background: #f1f1f1;
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+  #showstar-title {
+    margin: 40px auto;
+    width: 500px;
+  }
+  #showstar-content {
+    display: -webkit-flex;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%; 
+  }
+    #showstar-left {
+      flex: 2;
+      margin-left: 40px;
+    }
+      #showstar-about {
+        font-size: 24px;
+        height: 70%;
+        margin-left: 40px;
+      }
+      #showstar-buttons {
+        height: 30%;
+        margin: 40px;
+        text-align: left;
+      }
+      
+    #showstar-right {
+      flex: 1;
+      margin-right: 100px;
+    }
+      #showstar-screen {
+        height: 100%;
+        width: 100%;
+      }
+
+
+#remoteme {
+  background: url(images/workinprogress.png);
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+  #remoteme-title {
+    margin: 40px auto;
+    width: 350px;
+  }
+  #remoteme-content {
+    display: -webkit-flex;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%; 
+  }
+    #remoteme-left {
+      flex: 1;
+      margin-left: 100px;
+    }
+      #remoteme-screen {
+        height: 100%;
+        width: 100%;
+      }
+    #remoteme-right {
+      flex: 2;
+      margin-right: 40px;
+    }
+      #remoteme-about {
+        font-size: 24px;
+        height: 70%;
+        margin-right: 40px;
+      }
+      #remoteme-buttons {
+        height: 30%;
+        margin: 40px;
+        text-align: right;
+      }
+
+  
+#brooklyn {
+  background: #f1f1f1;
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+  #brooklyn-title {
+    margin: 40px auto;
+    width: 530px;
+  }
+  #brooklyn-content {
+    display: -webkit-flex;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%; 
+  }
+    #brooklyn-left {
+      flex: 2;
+      margin-left: 40px;
+    }
+      #brooklyn-about {
+        font-size: 24px;
+        height: 70%;
+        margin-left: 40px;
+      }
+      #brooklyn-buttons {
+        height: 30%;
+        margin: 40px;
+        text-align: left;
+      }
+    #brooklyn-right {
+      flex: 1;
+      margin-right: 100px;
+    }
+      #brooklyn-screen {
+        height: 100%;
+        width: 100%;
+      }
+/* Projects End */
+
+#contact {
+  display: -webkit-flex;
+  display: flex;
+  height: 400px;
+  text-align: center;
+}
+
+.contact-button {
+  flex: 1;
+  margin: 80px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.contact-img {
+  height: 100%;
+  width: 100%;
+}
+
+#github {
+  background: #000;
+}
+  #github:hover {
+    background: #99cc99;
+  }
+#twitter {
+  background: #4099FF;
+}
+  #twitter:hover {
+    background: #99cc99;
+  }
+
+#linkedin {
+  background: #0077B5;
+}
+  #linkedin:hover {
+    background: #99cc99;
+  }
+
+#gmail {
+  background: #dd4b39;
+}
+  #gmail:hover {
+    background: #99cc99;
+  }
+
+#cv {
+  background: #C0C0C0;
+}
+  #cv:hover {
+    background: #99cc99;
+  }
