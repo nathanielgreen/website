@@ -78,160 +78,102 @@ a {
 
 /* Projects Start */
 #ushare {
+  background: url(images/mapbackground2.png);
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
+  text-align: center;
 }
   #ushare-title {
     margin: 40px auto;
     width: 250px;
   }
   #ushare-content {
-    display: -webkit-flex;
-    display: flex;
     font-family: 'Montserrat', sans-serif;
     width: 100%; 
   }
-    #ushare-left {
-      flex: 1;
-    }
-      #ushare-phone {
-        height: 100%;
-        width: 100%;
-      }
-    #ushare-right {
-      flex: 2;
-      margin-right: 40px;
-    }
       #ushare-about {
         font-size: 24px;
+        margin: 40px;
         height: 70%;
       }
       #ushare-buttons {
         height: 30%;
-        margin-right: 40px;
-        text-align: right;
       }
 
 
 #showstar {
-  background: #f1f1f1;
+  background: url(images/showstar.png);
   padding-top: 40px;
   padding-bottom: 120px;
+  text-align: center;
 }
   #showstar-title {
     margin: 40px auto;
     width: 500px;
   }
   #showstar-content {
-    display: -webkit-flex;
-    display: flex;
     font-family: 'Montserrat', sans-serif;
     width: 100%; 
   }
-    #showstar-left {
-      flex: 2;
-      margin-left: 40px;
-    }
       #showstar-about {
         font-size: 24px;
+        margin: 40px;
         height: 70%;
-        margin-left: 40px;
       }
       #showstar-buttons {
         height: 30%;
         margin: 40px;
-        text-align: left;
       }
       
-    #showstar-right {
-      flex: 1;
-      margin-right: 100px;
-    }
-      #showstar-screen {
-        height: 100%;
-        width: 100%;
-      }
 
 
 #remoteme {
   background: url(images/workinprogress.png);
   padding-top: 40px;
   padding-bottom: 120px;
+  text-align: center;
 }
   #remoteme-title {
     margin: 40px auto;
     width: 350px;
   }
   #remoteme-content {
-    display: -webkit-flex;
-    display: flex;
     font-family: 'Montserrat', sans-serif;
     width: 100%; 
   }
-    #remoteme-left {
-      flex: 1;
-      margin-left: 100px;
-    }
-      #remoteme-screen {
-        height: 100%;
-        width: 100%;
-      }
-    #remoteme-right {
-      flex: 2;
-      margin-right: 40px;
-    }
       #remoteme-about {
         font-size: 24px;
         height: 70%;
-        margin-right: 40px;
+        margin: 40px;
       }
       #remoteme-buttons {
         height: 30%;
         margin: 40px;
-        text-align: right;
       }
-        #remoteme-buttons a {
-          width: 50%;
-        }
 
   
 #brooklyn {
-  background: #f1f1f1;
+  background: url(images/brooklyn.png);
   padding-top: 40px;
   padding-bottom: 120px;
+  text-align: center;
 }
   #brooklyn-title {
     margin: 40px auto;
     width: 530px;
   }
   #brooklyn-content {
-    display: -webkit-flex;
-    display: flex;
     font-family: 'Montserrat', sans-serif;
     width: 100%; 
   }
-    #brooklyn-left {
-      flex: 2;
-      margin-left: 40px;
+    #brooklyn-about {
+      font-size: 24px;
+      height: 70%;
     }
-      #brooklyn-about {
-        font-size: 24px;
-        height: 70%;
-        margin-left: 40px;
-      }
-      #brooklyn-buttons {
-        height: 30%;
-        margin: 40px;
-        text-align: left;
-      }
-    #brooklyn-right {
-      flex: 1;
-      margin-right: 100px;
+    #brooklyn-buttons {
+      height: 30%;
+      margin: 40px;
     }
-      #brooklyn-screen {
-        height: 100%;
-        width: 100%;
-      }
 /* Projects End */
 
 #contact {
@@ -287,78 +229,25 @@ a {
   }
 
 @media screen and (max-width: 720px) {
-
-  #ushare-content {
-    display: block;
-  }
-  #ushare-right {
-    margin: 20px;
-    text-align: center;
-  }
-  #ushare-buttons {
-    margin: 20px;
-    text-align: center;
-  }
-
-
-  #showstar-content {
-    display: block;
-  }
-  #showstar-left {
-    margin: 20px;
-    text-align: center;
-  }
-  #showstar-right {
-    display: none;
-  }
-  #showstar-about {
-    margin: 0;
-  }
-  #showstar-buttons {
-    margin: 20px;
-    text-align: center;
-  }
-
-  
-  #remoteme-content {
-    display: block;
-  }
-  #remoteme-right {
-    margin: 20px;
-    text-align: center;
-  }
-  #remoteme-left {
-    display: none;
-  }
-  #remoteme-buttons {
-    margin: 20px;
-    text-align: center;
-  }
-
-  
-  #brooklyn-content {
-    display: block;
-  }
-  #brooklyn-left {
-    margin: 20px; 
-    text-align: center;
-  }
-  #brooklyn-right {
-    display: none;
-  }
-  #brooklyn-about {
-    margin: 0;
-  }
-  #brooklyn-buttons {
-    margin: 20px;
-    text-align: center;
-  }
-
   #contact {
     display: block;
   }
   .contact-button {
     flex: none;
     margin: 0;
+  }
+  .project-title h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  } 
+  #intro {
+    padding: 10px;
+  }
+  #showstar-title {
+    width: 80j;
+  }
+  #brooklyn-title {
+    width: 80%;
   }
 }
