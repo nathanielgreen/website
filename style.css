@@ -309,6 +309,9 @@ a {
     margin: 20px;
     text-align: center;
   }
+  #showstar-right {
+    display: none;
+  }
   #showstar-about {
     margin: 0;
   }
@@ -325,6 +328,9 @@ a {
     margin: 20px;
     text-align: center;
   }
+  #remoteme-left {
+    display: none;
+  }
   #remoteme-buttons {
     margin: 20px;
     text-align: center;
@@ -337,6 +343,9 @@ a {
   #brooklyn-left {
     margin: 20px; 
     text-align: center;
+  }
+  #brooklyn-right {
+    display: none;
   }
   #brooklyn-about {
     margin: 0;
