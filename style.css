@@ -41,6 +41,7 @@ a {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
+  margin: 10px;
 }
   .button:hover {
     background: #99cc99;
@@ -189,6 +190,9 @@ a {
         margin: 40px;
         text-align: right;
       }
+        #remoteme-buttons a {
+          width: 50%;
+        }
 
   
 #brooklyn {
@@ -239,13 +243,12 @@ a {
 
 .contact-button {
   flex: 1;
-  margin: 80px;
+  margin: 40px;
   overflow: hidden;
   text-align: center;
 }
 
 .contact-img {
-  height: 100%;
   width: 100%;
 }
 
@@ -284,10 +287,6 @@ a {
   }
 
 @media screen and (max-width: 720px) {
-  a {
-    display: inline-block;
-    margin: 10px;
-  }
 
   #ushare-content {
     display: block;
@@ -357,5 +356,9 @@ a {
 
   #contact {
     display: block;
+  }
+  .contact-button {
+    flex: none;
+    margin: 0;
   }
 }
