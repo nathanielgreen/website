@@ -282,3 +282,71 @@ a {
   #cv:hover {
     background: #99cc99;
   }
+
+@media screen and (max-width: 720px) {
+  a {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  #ushare-content {
+    display: block;
+  }
+  #ushare-right {
+    margin: 20px;
+    text-align: center;
+  }
+  #ushare-buttons {
+    margin: 20px;
+    text-align: center;
+  }
+
+
+  #showstar-content {
+    display: block;
+  }
+  #showstar-left {
+    margin: 20px;
+    text-align: center;
+  }
+  #showstar-about {
+    margin: 0;
+  }
+  #showstar-buttons {
+    margin: 20px;
+    text-align: center;
+  }
+
+  
+  #remoteme-content {
+    display: block;
+  }
+  #remoteme-right {
+    margin: 20px;
+    text-align: center;
+  }
+  #remoteme-buttons {
+    margin: 20px;
+    text-align: center;
+  }
+
+  
+  #brooklyn-content {
+    display: block;
+  }
+  #brooklyn-left {
+    margin: 20px; 
+    text-align: center;
+  }
+  #brooklyn-about {
+    margin: 0;
+  }
+  #brooklyn-buttons {
+    margin: 20px;
+    text-align: center;
+  }
+
+  #contact {
+    display: block;
+  }
+}
