@@ -184,9 +184,7 @@ a {
 }
 
 .contact-button {
-  flex: 1;
   margin: 40px;
-  overflow: hidden;
   text-align: center;
 }
 
@@ -233,7 +231,6 @@ a {
     display: block;
   }
   .contact-button {
-    flex: none;
     margin: 0;
   }
   .project-title h1{
