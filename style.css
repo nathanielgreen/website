@@ -168,6 +168,7 @@ a {
   }
     #brooklyn-about {
       font-size: 24px;
+      margin: 40px;
       height: 70%;
     }
     #brooklyn-buttons {
