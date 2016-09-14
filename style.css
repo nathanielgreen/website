@@ -179,7 +179,8 @@ a {
 
 
 #chromebooks {
-  background: #fff;
+  background: url(images/linux.png);
+  background-size: cover;
   padding-top: 40px;
   padding-bottom: 120px;
   text-align: center;
