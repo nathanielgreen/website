@@ -29,6 +29,14 @@ a {
   text-align: center;
 }
 
+.fadein {
+  opacity: 0;
+}
+
+.project-title {
+  opacity: 0;
+}
+
 .button {
   border: solid;
   border-color: #99cc99;
