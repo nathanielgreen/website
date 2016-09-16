@@ -187,7 +187,6 @@ a {
 
 
 #chromebooks {
-  background: url(images/linux.png);
   background-size: cover;
   padding-top: 40px;
   padding-bottom: 120px;
@@ -270,7 +269,7 @@ a {
     padding: 10px;
   }
   #showstar-title {
-    width: 80j;
+    width: 80%;
   }
   #brooklyn-title {
     width: 80%;
