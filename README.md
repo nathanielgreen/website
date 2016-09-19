@@ -14,6 +14,7 @@ social media, and other information such as my Email, CV, and Blog,
 
 # Technologies Used
 
-The site uses  HTML & CSS, and only some jQuery to keep the load times quick and also not
-overcomplicate the design of the portfolio.
+The site uses  HTML & CSS, and only some jQuery for section fade-ins 
+to keep the load times quick and also not overcomplicate the design of the 
+portfolio.
 
