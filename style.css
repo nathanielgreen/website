@@ -25,16 +25,8 @@ a {
   color: #fff;
   font-size: 20px;
   margin: 0;
-  padding: 5px;
+  padding: 2px;
   text-align: center;
-}
-
-.fadein {
-  opacity: 0;
-}
-
-.project-title {
-  opacity: 0;
 }
 
 .button {
@@ -42,9 +34,9 @@ a {
   border-color: #99cc99;
   border-radius: 2px;
   border-width: 4px;
-  background: url(images/transparentbg.png);
+  background: #99cc99;
   bottom: 0;
-  color: #99cc99;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   margin: 0 auto;
@@ -53,8 +45,8 @@ a {
   margin: 10px;
 }
   .button:hover {
-    background: #99cc99;
-    color: #fff;
+    background: url(images/transparentbg.png);
+    color: #99cc99;
     cursor: hand;
   }
 
@@ -70,144 +62,79 @@ a {
     font-size: 30px;
   }
 
-.project-title {
-    border-bottom: solid;
-    border-color: #99cc99;
-    border-width: 4px;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-    .project-title h1{
-      font-size: 60px;
-      margin: 0;
-    } 
 
-
-/* Projects Start */
-#ushare {
-  background: url(images/mapbackground2.png);
+/* Projects */
+.project {
   padding-top: 40px;
   padding-bottom: 120px;
   text-align: center;
+}
+  .project-title {
+      border-bottom: solid;
+      border-color: #99cc99;
+      border-width: 4px;
+      margin: 0 auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+      .project-title h1{
+        font-size: 60px;
+        margin: 0;
+      } 
+  .project-content {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+  }
+    .project-about { 
+      font-size: 24px;
+      height: 70%;
+      margin: 40px;
+      padding-left: 200px;
+      padding-right: 200px;
+    }
+    .project-buttons {
+      height: 30%; 
+    }
+
+
+#ushare {
+  background: url(images/mapbackground2.png);
 }
   #ushare-title {
     margin: 40px auto;
     width: 250px;
   }
-  #ushare-content {
-    font-family: 'Montserrat', sans-serif;
-    width: 100%; 
-  }
-      #ushare-about {
-        font-size: 24px;
-        margin: 40px;
-        height: 70%;
-      }
-      #ushare-buttons {
-        height: 30%;
-      }
-
 
 #showstar {
   background: url(images/showstar.png);
-  padding-top: 40px;
-  padding-bottom: 120px;
-  text-align: center;
 }
   #showstar-title {
     margin: 40px auto;
     width: 500px;
   }
-  #showstar-content {
-    font-family: 'Montserrat', sans-serif;
-    width: 100%; 
-  }
-      #showstar-about {
-        font-size: 24px;
-        margin: 40px;
-        height: 70%;
-      }
-      #showstar-buttons {
-        height: 30%;
-        margin: 40px;
-      }
-      
-
 
 #remoteme {
-  background: url(images/workinprogress.png);
-  padding-top: 40px;
-  padding-bottom: 120px;
-  text-align: center;
 }
   #remoteme-title {
     margin: 40px auto;
     width: 350px;
   }
-  #remoteme-content {
-    font-family: 'Montserrat', sans-serif;
-    width: 100%; 
-  }
-      #remoteme-about {
-        font-size: 24px;
-        height: 70%;
-        margin: 40px;
-      }
-      #remoteme-buttons {
-        height: 30%;
-        margin: 40px;
-      }
-
   
 #brooklyn {
   background: url(images/brooklyn.png);
-  padding-top: 40px;
-  padding-bottom: 120px;
-  text-align: center;
 }
   #brooklyn-title {
     margin: 40px auto;
     width: 530px;
   }
-  #brooklyn-content {
-    font-family: 'Montserrat', sans-serif;
-    width: 100%; 
-  }
-    #brooklyn-about {
-      font-size: 24px;
-      margin: 40px;
-      height: 70%;
-    }
-    #brooklyn-buttons {
-      height: 30%;
-      margin: 40px;
-    }
-
 
 #chromebooks {
   background-size: cover;
-  padding-top: 40px;
-  padding-bottom: 120px;
-  text-align: center;
 }
   #chromebooks-title {
     margin: 40px auto;
     width: 520px;
-  }
-  #chromebooks-content {
-    font-family: 'Montserrat', sans-serif;
-    width: 100%; 
-  }
-  #chromebooks-about {
-    font-size: 24px;
-    margin: 40px;
-    height: 70%;
-  }
-  #chromebooks-buttons {
-    height: 30%;
-    margin: 40px;
   }
 /* Projects End */
 
@@ -215,8 +142,10 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   margin: 40px;
+  padding: 60px;
   padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 
