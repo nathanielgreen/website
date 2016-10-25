@@ -197,28 +197,30 @@ a {
     }
 
 @media screen and (max-width: 720px) {
-  #contact {
-    display: block;
-  }
-  .contact-button {
-    margin: 0;
-  }
-  .project-about {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .project-title h1{
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-  } 
-  #intro {
-    padding: 10px;
-  }
-  #showstar-title {
-    width: 80%;
-  }
-  #brooklyn-title {
-    width: 80%;
-  }
+/* Mobile CSS */
+#intro {
+padding: 10px;
+}
+
+.project-about {
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+#about {
+  padding: 20px;
+}
+
+#showstar-title {
+  width: 75%;
+}
+
+#brooklyn-title {
+  width: 80%;
+}
+
+#contact {
+  display: block;
+}
+/* Mobile CSS End */
 }
