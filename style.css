@@ -99,7 +99,7 @@ a {
 
 
 #ushare {
-  background: url(images/mapbackground2.png);
+  background: url(images/background-ushare.png);
 }
   #ushare-title {
     margin: 40px auto;
@@ -107,7 +107,7 @@ a {
   }
 
 #showstar {
-  background: url(images/showstar.png);
+  background: url(images/background-showstar.png);
 }
   #showstar-title {
     margin: 40px auto;
@@ -115,6 +115,8 @@ a {
   }
 
 #remoteme {
+  background: url(images/background-remoteme.png);
+  background-size: cover;
 }
   #remoteme-title {
     margin: 40px auto;
@@ -122,7 +124,7 @@ a {
   }
   
 #brooklyn {
-  background: url(images/brooklyn.png);
+  background: url(images/background-brooklyn.png);
 }
   #brooklyn-title {
     margin: 40px auto;
