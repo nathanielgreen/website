@@ -132,6 +132,7 @@ a {
   }
 
 #chromebooks {
+  background: url(images/background-linux.png) center;
   background-size: cover;
 }
   #chromebooks-title {
@@ -144,11 +145,22 @@ a {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   margin: 40px;
-  padding: 60px;
+  padding: 150px;
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
 }
+  #about hr {
+    border: none;
+    border-radius: 2px;
+    background: #99c999;
+    color: #99cc99;
+    height: 4px;
+    width: 100px;
+  }
+  #about a {
+    text-decoration: underline;
+  }
 
 
 #contact {
@@ -190,6 +202,10 @@ a {
   }
   .contact-button {
     margin: 0;
+  }
+  .project-about {
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .project-title h1{
     font-size: 40px;
