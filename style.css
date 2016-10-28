@@ -4,20 +4,30 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.fadein {
+  opacity: 0;
+  margin: 40px;
+}
 /* General End */
 
 /* Header */
 #header {
   display: flex;
   align-items: center;
-  height: 400px;
-  font-family: 'Raleway', sans-serif;
+  height: 500px;
   text-align: center;
   justify-content: center;
 }
   #header div {
   }
   #header h1 {
+    font-family: 'Raleway', sans-serif;
     font-size: 6em;
     margin: 0;
   }
@@ -31,11 +41,11 @@ body {
     width: 300px;
   }
   #header h3 {
+    font-family: 'Muli', sans-serif;
     font-size: 1.5em;
     margin: 0;
   }
 /* Header End */
-
 
 
 /* Banner */
@@ -47,9 +57,34 @@ body {
   padding: 10px;
 }
   .banner h1 {
-    font-family: 2em;
+    font-size: 1.6em;
   }
 /* Banner End */
+
+/* About */
+#about {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+  margin: 20px;
+  text-align: center;
+}
+  #about hr {
+    background: #111;
+    border: none;
+    border-radius: 2px;
+    color: #111;
+    height: 1px;
+    margin: 20px auto;
+    width: 300px;
+  }
+  #about p {
+    justify-content: center;
+    margin: 40px auto;
+    width: 1080px;
+  }
+  
+/* About End */
+
 
 /* Portfolio */
 #portfolio {

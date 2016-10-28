@@ -10,26 +10,55 @@
 
   <!-- Google Fonts -->
   <link 
-  href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway" 
-  rel="stylesheet">
+    href="https://fonts.googleapis.com/css?family=Muli|Open+Sans|Raleway" 
+    rel="stylesheet">
+  
+  <!-- jQuery -->
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+  </script>
 </head>
 <body>
   <!-- Header -->
   <div id="header">
     <div>
       <h1>Nathaniel Green</h1>
-      <hr></hr>
+      <hr />
       <h3>Web Developer based in London, UK.</h3>
     </div>
   </div>
   <!-- Header End -->
 
   <div class="banner">
+    <h1>ABOUT</h1>
+  </div>
+
+  <!-- About -->
+  <div id="about" class="fadein">
+    <p>Hi, I'm Nathaniel Green, a freelance web developer based in London,
+    UK.</p>
+    <p>Below you will find some of the previous work I have done, as well as some
+    personal open-source projects of mine, and my contact details.</p>
+    <hr />
+    <p>I am available to hire for short term projects, as well as being able to
+    build small, lightweight websites/apps for business or personal use. I can
+    also provide custom graphics and logos, along with the set up of custom
+    domains and email addresses.</p>
+    <p>My hourly rate is currently £12/hr, however this may be 
+    flexible depending on client budget and project size.</p>
+    <hr />
+    <p>If you'd like to get in touch and discuss a potential project you 
+    would like building, email me at 
+    <a href="mailto:work@ngreen.co">work@ngreen.co</a></p>
+  </div>
+  <!-- About -->
+
+  <div class="banner">
     <h1>WORK PORTFOLIO</h1>
   </div>
 
   <!-- Portfolio -->
-  <div id="portfolio">
+  <div id="portfolio" class="fadein">
     <div class="project">
       <div class="project-background" id="showstar"></div>
       <div class="project-banner">
@@ -50,7 +79,7 @@
   </div>
 
   <!-- Personal Projects -->
-  <div id="projects">
+  <div id="projects" class="fadein">
     <div class="project">
       <div class="project-background" id="ushare"></div>
       <div class="project-banner">
@@ -71,5 +100,13 @@
     </div>
   </div>
   <!-- Personal Projects End -->
+  
+  <div class="banner">
+    <h1>CONTACT</h1>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="scripts/fadein.js"></script>
 </body>
 </html>
