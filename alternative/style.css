@@ -66,17 +66,14 @@ body {
   position: relative;
 }
   .portfolio-background {
-    animation-name: dark-fade-out;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
-    position: absolute;
     height: 100%;
+    position: absolute;
+    transition: 300ms;
     width: 100%;
   }
     .portfolio-background:hover {
-      animation-name: dark-fade-in;
-      animation-duration: 0.3s;
-      animation-fill-mode: forwards;
+      opacity: 0.5;
+      transition: 300ms;
     }
   .portfolio-banner {
     background: #111;
@@ -103,22 +100,3 @@ body {
   background-size: cover;
 }
 /* Portfolio End */
-
-/* Animations */
-@keyframes dark-fade-in {
-  0% {
-    opacity: 1.0;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
-@keyframes dark-fade-out {
-  0% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1.0;
-  }
-}
-/* Animations End */
