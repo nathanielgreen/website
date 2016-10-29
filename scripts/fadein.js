@@ -23,3 +23,15 @@ $(document).ready(function() {
     
 });
 
+$("label").click(function(){
+  setTimeout(function(){
+    var section_height = $(".project-expand").height();
+    console.log(section_height);
+    if(section_height > 200) {
+      $(".project-expand section").animate({'opacity':'1'}, 1000);
+    } else {
+      $(".project-expand section").animate({'opacity':'0'}, 1000);
+    }
+  }, 500);
+});
+
