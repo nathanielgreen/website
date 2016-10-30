@@ -146,11 +146,11 @@ a {
       display: flex;
       flex-flow: column;
       height: 100%;
-      opacity: 0;
       text-align: center;
       width: 100%
     }
     .project-expand h2 {
+      margin: 15px;
       font-family: 'Raleway', sans-serif;
       font-size: 2vw;
       text-decoration: underline;
