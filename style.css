@@ -10,10 +10,6 @@ a {
   text-decoration: underline;
 }
 
-.fadein {
-  opacity: 0;
-  margin: 40px;
-}
 /* General End */
 
 /* Header */
@@ -41,7 +37,7 @@ a {
     width: 300px;
   }
   #header h3 {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     margin: 0;
   }
@@ -63,7 +59,7 @@ a {
 
 /* About */
 #about {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.5em;
   margin: 20px;
   text-align: center;
@@ -156,7 +152,8 @@ a {
       text-decoration: underline;
     }
     .project-expand p {
-      font-size: 1.15vw;
+      font-family: 'Noto Sans';
+      font-size: 1.05vw;
       margin: 2px auto;
       width: 80%;
       max-height: 100%;
@@ -207,6 +204,28 @@ a {
 }
 /* Projects End */
 
+
+/* Contact */
+#contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+  text-align: center;
+}
+.contact-link {
+  flex: 1;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2em;
+  margin: 10px;
+  text-decoration: none;
+}
+  .contact-link:hover {
+    color: #555;
+  }
+/* Contact End */
+
+
 /* Mobile CSS */
 @media screen and (max-width: 720px) {
 #portfolio {
@@ -226,5 +245,14 @@ a {
   .project-expand p {
     font-size: 2vw; 
   }
+#contact {
+  display: block;
+  width: 100%;
+  margin: 0px;
+}
+.contact-link {
+  display: inline-block;
+  width: 100%;
+}
 }
 /* Mobile CSS End */
