@@ -174,12 +174,12 @@ a {
     }
 
 #showstar {
-  background: url(images/club.jpeg) no-repeat center;
+  background: url(../images/club.jpeg) no-repeat center;
   background-size: cover;
 }
 
 #brooklyn {
-  background: url(images/brooklyn.jpeg) no-repeat center;
+  background: url(../images/brooklyn.jpeg) no-repeat center;
   background-size: cover;
 }
 
@@ -190,7 +190,7 @@ a {
   margin-bottom: 20px;
 }
   #armistice {
-    background: url(images/armistice.jpg) no-repeat center;
+    background: url(../images/armistice.jpg) no-repeat center;
     background-size: cover;
   }
 /* Portfolio End */
@@ -201,17 +201,17 @@ a {
 }
 
 #ushare {
-  background: url(images/cab.jpeg) no-repeat center;
+  background: url(../images/cab.jpeg) no-repeat center;
   background-size: cover;
 }
 
 #remoteme {
-  background: url(images/map.jpeg) no-repeat center;
+  background: url(../images/map.jpeg) no-repeat center;
   background-size: cover;
 }
 
 #bulletjournal {
-  background: url(images/journal.jpeg) no-repeat center;
+  background: url(../images/journal.jpeg) no-repeat center;
   background-size: cover;
 }
 /* Projects End */
