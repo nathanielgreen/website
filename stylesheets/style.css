@@ -236,35 +236,3 @@ a {
     color: #555;
   }
 /* Contact End */
-
-
-/* Mobile CSS */
-@media screen and (max-width: 720px) {
-#portfolio {
-  display: inline-block;
-  margin: 20px auto;
-  width: 100%;
-}
-#projects {
-  display: inline-block;
-  margin: 20px auto;
-  width: 100%;
-}
-.project {
-  height: 400px;
-  max-width: 100%;
-}
-  .project-expand p {
-    font-size: 2vw; 
-  }
-#contact {
-  display: block;
-  width: 100%;
-  margin: 0px;
-}
-.contact-link {
-  display: inline-block;
-  width: 100%;
-}
-}
-/* Mobile CSS End */
