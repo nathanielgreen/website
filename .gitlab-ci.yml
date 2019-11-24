@@ -10,9 +10,10 @@ cache:
 pages:
   script:
     - npm run generate
+    - mv dist/ public/
   artifacts:
     paths:
-      - dist
+      - public
   only:
     - master
 
