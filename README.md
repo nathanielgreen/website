@@ -1,13 +1,22 @@
-# Personal Website
+# website
 
-This is the code for my personal website: http://ngreen.io.
+> My personal website
 
-The sites main function for now is to act as a simple landing page with links to
-my other content.
+## Build Setup
 
+``` bash
+# install dependencies
+$ npm run install
 
-# Technologies Used
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-- HTML5 & CSS3
-- [Feather Icons](http://feathericons.com/)
+# build for production and launch server
+$ npm run build
+$ npm run start
 
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
