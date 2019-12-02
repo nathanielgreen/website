@@ -23,7 +23,7 @@ module.exports = {
 						loader: 'svelte-loader',
 						options: {
 							dev,
-							hydratable: true,
+							hydratable: false,
 							hotReload: false // pending https://github.com/sveltejs/svelte/issues/2377
 						}
 					}
@@ -68,10 +68,4 @@ module.exports = {
 			hints: false // it doesn't matter if server.js is large
 		}
 	},
-
-	serviceworker: {
-		entry: config.serviceworker.entry(),
-		output: config.serviceworker.output(),
-		mode: process.env.NODE_ENV
-	}
 };
