@@ -1,46 +1,90 @@
 <style>
-	h1, figure, p {
+	.headers {
+		margin: 40px;
 		text-align: center;
-		margin: 0 auto;
 	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
+	.header--main {
+			font-size: 56px;
+			margin-bottom: 0;
 		}
-	}
-</style>
+		.header--small {
+			font-size: 26px;
+		}
 
-<svelte:head>
-	<title>Sapper project template</title>
-</svelte:head>
+		.container {
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+		}
 
-<h1>Great success!</h1>
+		.links {
+		}
+			.link {
+				margin: 0 15px;
+				padding-bottom: 2px;
+			}
+				.link:hover {
+					color: #222222;
+					border-bottom: solid;
+					border-width: 2px;
+				}
+				.link__img {
+					height: 20px;
+					width: 20px;
+				}
 
-<figure>
-	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
-</figure>
+		@media (max-width: 37.5em)  {
+			.headers {
+				margin: 10px;
+			}
+			.link {
+				display: block;
+				margin: 4px;
+			}
+		}
+	</style>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+	<svelte:head>
+		<title>Nat Green | Web Developer</title>
+	</svelte:head>
+
+
+<div class="container">
+    <div class="headers">
+      <h1 class="header--main">Nat Green</h1>
+      <h3 class="header--small">Web Developer based in London, UK.</h3>
+    </div>
+    <div class="links">
+        <a class="link" href="mailto:n@ngreen.io">
+          <img alt="email" class="link__img" src="images/mail.svg" />
+          Mail
+        </a>
+        <a class="link" target="_blank" href="https://github.com/nathanielgreen/">
+          <img alt="github logo" class="link__img" src="images/github.svg" />
+          Github
+        </a>
+        <a class="link" target="_blank" href="https://gitlab.com/nathanielgreen/">
+          <img alt="gitlab-logo" class="link__img" src="images/gitlab.svg" />
+          Gitlab
+        </a>
+        <a class="link" target="_blank" href="https://github.com/nathanielgreen/CV">
+          <img alt="file image" class="link__img" src="images/file.svg" />
+          CV
+        </a>
+        <a	
+          class="link"
+          target="_blank"
+          href="https://www.linkedin.com/in/nathaniel-g-727263107"
+        >
+          <img alt="linkedIn logo" class="link__img" src="images/linkedin.svg" />
+          LinkedIn
+        </a>
+        <a class="link" target="_blank" href="https://dev.to/nathanielgreen">
+          <img alt="code brakcets image" class="link__img" src="images/code.svg" />
+          Dev.to
+        </a>
+    </div>
+</div>
