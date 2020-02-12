@@ -17,8 +17,6 @@ body {
   font-family: Arial, sans-serif;
 }
 `
-
-
 export default ({ children }) => (
   <React.Fragment>
     <GlobalStyle />

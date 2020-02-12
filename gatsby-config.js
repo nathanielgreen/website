@@ -14,5 +14,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-no-javascript`,
+    `gatsby-plugin-netlify-cms`
   ],
 }
