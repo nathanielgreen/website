@@ -1,24 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import { createGlobalStyle } from "styled-components"
 import Icon from "../components/Icon.js"
-
-const GlobalStyle = createGlobalStyle`
-html {
-  width: 100vw;
-  height: 100vh;
-}
-body {
-  background-color: #f1f1f1;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
-#gatsby-focus-wrapper {
-  height: 100vh;
-  font-family: Arial, sans-serif;
-}
-`
+import DefaultLayout from "../layouts/DefaultLayout.js"
 
 const Container = styled.div`
   align-items: center;
@@ -47,8 +30,7 @@ const List = styled.ul`
 `
 
 export default () => (
-  <React.Fragment> 
-    <GlobalStyle />
+  <DefaultLayout>
     <Container>
       <HeaderWrapper>
         <Heading>Nat Green</Heading>
@@ -82,5 +64,5 @@ export default () => (
         />
       </List>
     </Container>
-  </React.Fragment> 
+  </DefaultLayout> 
 )
