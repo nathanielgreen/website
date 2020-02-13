@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-no-javascript`,
   ],
 }
