@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Icon from "../components/Icon.js"
 import DefaultLayout from "../layouts/DefaultLayout.js"
+import JSONData from "../../_content/home/data.json"
 
 const Container = styled.div`
   align-items: center;
@@ -33,35 +34,21 @@ export default () => (
   <DefaultLayout>
     <Container>
       <HeaderWrapper>
-        <Heading>Nat Green</Heading>
-        <Subheading>Web Developer based in London, UK.</Subheading>
+        <Heading>{ JSONData.heading }</Heading>
+        <Subheading>{ JSONData.subheading }</Subheading>
       </HeaderWrapper>
       <List>
-        <Icon
-          iconPath="images/uploads/mail.svg"
-          text="Mail"
-          link="mailto:n@ngreen.io"
-        />
-        <Icon
-          iconPath="images/uploads/github.svg"
-          text="Github"
-          link="https://github.com/nathanielgreen/"
-        />
-        <Icon
-          iconPath="images/uploads/gitlab.svg"
-          text="Gitlab"
-          link="https://gitlab.com/nathanielgreen/"
-        />
-        <Icon
-          iconPath="images/uploads/file.svg"
-          text="CV"
-          link="https://gitlab.com/nathanielgreen/CV/"
-        />
-        <Icon
-          iconPath="images/uploads/linkedin.svg"
-          text="LinkedIn"
-          link="https://www.linkedin.com/in/nathaniel-g-727263107"
-        />
+        {
+          JSONData.links.map((link) => {
+            return (
+              <Icon
+                iconPath={ link.icon }
+                text={ link.text }
+                link={ link.link }
+              />
+            )
+          })
+        }
       </List>
     </Container>
   </DefaultLayout> 
