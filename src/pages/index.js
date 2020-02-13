@@ -38,27 +38,27 @@ export default () => (
       </HeaderWrapper>
       <List>
         <Icon
-          iconPath="images/mail.svg"
+          iconPath="images/uploads/mail.svg"
           text="Mail"
           link="mailto:n@ngreen.io"
         />
         <Icon
-          iconPath="images/github.svg"
+          iconPath="images/uploads/github.svg"
           text="Github"
           link="https://github.com/nathanielgreen/"
         />
         <Icon
-          iconPath="images/gitlab.svg"
+          iconPath="images/uploads/gitlab.svg"
           text="Gitlab"
           link="https://gitlab.com/nathanielgreen/"
         />
         <Icon
-          iconPath="images/file.svg"
+          iconPath="images/uploads/file.svg"
           text="CV"
           link="https://gitlab.com/nathanielgreen/CV/"
         />
         <Icon
-          iconPath="images/linkedin.svg"
+          iconPath="images/uploads/linkedin.svg"
           text="LinkedIn"
           link="https://www.linkedin.com/in/nathaniel-g-727263107"
         />
