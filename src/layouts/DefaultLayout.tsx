@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -17,7 +17,7 @@ body {
   font-family: Arial, sans-serif;
 }
 `;
-export default ({ children }) => (
+export default ({ children }: { children: React.ReactNode }) => (
   <React.Fragment>
     <GlobalStyle />
     {children}
