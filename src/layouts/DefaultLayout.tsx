@@ -1,5 +1,5 @@
-import React from "react"
-import { createGlobalStyle } from "styled-components"
+import React from "react";
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 html {
@@ -16,10 +16,10 @@ body {
   height: 100vh;
   font-family: Arial, sans-serif;
 }
-`
+`;
 export default ({ children }) => (
   <React.Fragment>
     <GlobalStyle />
-    { children }
+    {children}
   </React.Fragment>
-)
+);
