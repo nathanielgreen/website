@@ -67,8 +67,10 @@ export const query = graphql`
   }
 `;
 
-export default (props: {
+export default ({
+  data,
+}: {
   data: {
     homeJson: Props;
   };
-}) => <HomePage {...props.data.homeJson} />;
+}) => <HomePage {...data.homeJson} />;
