@@ -11,14 +11,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1 className="block w-full text-center text-5xl font-bold m-5">
+      <h1 className="block w-full text-center text-5xl font-bold my-5">
         Nat Green
       </h1>
-      <h2 className="block w-full text-center text-2xl font-semibold m-5">
+      <h2 className="block w-full text-center text-2xl font-semibold my-5">
         Web Developer based in London.
       </h2>
 
-      <ul className="flex m-5">
+      <ul className="flex my-5">
         <ListItem>
           <Link>
             <FiGithub className="mr-1" />
