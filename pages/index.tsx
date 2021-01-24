@@ -20,19 +20,19 @@ export default function Home() {
 
       <ul className="flex my-5">
         <ListItem>
-          <Link>
+          <Link path="https://github.com/nathanielgreen/">
             <FiGithub className="mr-1" />
             Github
           </Link>
         </ListItem>
         <ListItem>
-          <Link>
+          <Link path="https://github.com/nathanielgreen/CV/">
             <FiFileText className="mr-1" />
             CV
           </Link>
         </ListItem>
         <ListItem>
-          <Link>
+          <Link path="https://www.linkedin.com/in/nat-g-727263107/">
             <FiLinkedin className="mr-1" />
             LinkedIn
           </Link>

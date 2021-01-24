@@ -1,5 +1,11 @@
 import type React from "react";
 
-export const Link = ({ children }: { children: React.ReactNode }) => (
-  <a className="hover:underline items-center flex">{children}</a>
+export type LinkProps = {
+  children: React.ReactNode;
+  path: string;
+};
+export const Link = ({ children, path }: LinkProps) => (
+  <a className="hover:underline items-center flex" href={path}>
+    {children}
+  </a>
 );
