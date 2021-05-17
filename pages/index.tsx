@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { ListItem } from "../components/atoms/ListItem";
-import { Link } from "../components/atoms/Link";
+import { ListItem } from "../components/ListItem";
+import { Link } from "../components/Link";
 import { FiGithub, FiFileText, FiLinkedin } from "react-icons/fi";
 
 export default function Home() {

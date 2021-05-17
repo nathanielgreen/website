@@ -1,5 +1,5 @@
-# ngreen.io
+# Personal Website
 
-My personal website https://ngreen.io.
+My personal website https://nathaniel.green
 
-Built with Gatsby.
+Built with Next.js.
